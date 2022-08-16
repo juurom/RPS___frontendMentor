@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.chooseBtn{
+  position: absoulte;
+  width: 6rem;
+  height: 6rem;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  box-shadow: inset 0 -4px 0 0 rgba(0,0,0,0.2);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inner{
+  box-shadow: inset 0 4px 0 0 rgba(0,0,0,0.1);
+  width:4rem;
+  height:4rem;
+  padding: 0.8rem;
+  background-color: rgb(255,255,255);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#scissors{
+  background-image:linear-gradient(to top, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
 }
 
-.App-link {
-  color: #61dafb;
+#paper{
+  background-image:linear-gradient(to top,  hsl(230, 89%, 62%), hsl(230, 89%, 65%));
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#rock{
+  background-image:linear-gradient(to top,  hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+}
+
+#lizard{
+  background-image:linear-gradient(to top,  hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+}
+      
+#spock{
+  background-image:linear-gradient(to top, hsl(189, 59%, 53%), hsl(189, 58%, 57%));
 }

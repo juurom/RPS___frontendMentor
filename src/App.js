@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Rule from './Rule.js'
+import Pentagon from './Pentagon.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-center h-screen w-screen bg-gradient-to-b from-slate-800 to-slate-900">
+      <Rule/>
+      <Pentagon/>
     </div>
   );
 }

@@ -51,19 +51,19 @@ function Pentagon(props){
             else setScore(score+1);
             setResult("WIN");
             setPlus(plus+1);
-            console.log(score);
+            //console.log(score);
           }
           else if (hand.comhand === (hand.myhand+2)%5 || hand.comhand === (hand.myhand+4)%5){
             setResult("LOSE");
             setScore(score-1);
             setPlus(1);
-            console.log(score);
+            //console.log(score);
         
           }
           else{
             setResult("DRAW");
             setPlus(1);
-            console.log(score);
+            //console.log(score);
         
           }
           //console.log(m,c, result);
@@ -144,7 +144,7 @@ function Pentagon(props){
     
     <div id="again" onClick={setPentagon} className="text-white">
         <div className="text-7xl m-5">{result}</div>
-        <button className="w-1/3 p-2 rounded-xl text-black bg-white">Play again</button>
+        <button className="w-72 p-2 rounded-xl text-black bg-white">Play again</button>
     </div>
     </div>
 
